@@ -1,11 +1,11 @@
 .nav_bar_container {
+  font-family: 'Merriweather', serif;
   padding-top: 3%;
   padding-left: 20%;
   padding-right: 20%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  /* display:flex; */
 }
 
 nav{
