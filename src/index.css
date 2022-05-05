@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+* {
+  /* box-sizing: border-box; */
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+  /* background-color: #131316; */
+}
+
+.page_container{
+  padding-top: 3%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+/* https://coolors.co/palette/131316-1c1c21-26262c-2f3037-393a41-4b4c52-5b5c62-6a6b70 */
