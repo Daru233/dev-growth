@@ -24,11 +24,11 @@ nav{
 }
 
 .nav_title {
-  list-style-type: none;
   font-size: 1.5em;
+  color: #374957;
+  list-style-type: none;
   display: flex;
   text-decoration: none;
-  color: #374957;
 }
 
 .nav_link {

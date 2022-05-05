@@ -7,19 +7,27 @@ import python from 'react-syntax-highlighter/dist/esm/languages/hljs/python';
 
 SyntaxHighlighter.registerLanguage('python', python);
 
-export const Code = () => {
+export const Code = (raw_code) => {
 
-  const code_string = `
-  make change, get from file
-  `
+  raw_code = raw_code.code
+
+  const custome_style = {
+    borderRadius: 20,
+    border: 5,
+    marginLeft: '12%',
+    marginRight: '12%',
+    marginTop: '5%',
+    padding: '2%'
+  }
 
   return (
     <div className='code_container'>
       <SyntaxHighlighter language="python" 
       style={darcula} 
+      customStyle={custome_style}
       codeTagProps={{style: {fontFamily: 'Source Code Pro', fontStyle: 'monospace', fontSize: 16} }}
       showLineNumbers={true}>
-        {code_string}
+        {raw_code}
       </SyntaxHighlighter>
     </div>
   )
