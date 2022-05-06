@@ -1,5 +1,6 @@
 
-def function hello_world(name):
+def function hello_world():
+    name = input('')
     print(f'Hello, {name}')
 
 

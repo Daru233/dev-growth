@@ -16,8 +16,9 @@ export const Code = (raw_code) => {
     border: 5,
     marginLeft: '12%',
     marginRight: '12%',
-    marginTop: '5%',
-    padding: '2%'
+    marginTop: '3%',
+    marginBottom: '2%',
+    padding: '3%'
   }
 
   return (

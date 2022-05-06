@@ -1,5 +1,5 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Source+Code+Pro&display=swap');
 
 * {
   /* box-sizing: border-box; */
@@ -8,12 +8,18 @@
   /* font-family: 'Merriweather', serif; */
 }
 
+p {
+  padding-left: 5%;
+  padding-right: 15%;
+  font-size: 1.2em;
+}
+
 body {
   background-color: #FFFAFA;
 }
 
 .page_container {
-  font-family: 'Merriweather', serif;
+  font-family: 'Montserrat', sans-serif;
   padding-top: 3%;
   padding-left: 20%;
   padding-right: 20%;
